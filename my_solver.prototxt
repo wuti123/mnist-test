@@ -1,0 +1,14 @@
+train_net: "/home/frank/Desktop/tmp/mnist-2/train.prototxt"
+test_net: "/home/frank/Desktop/tmp/mnist-2/test.prototxt"
+test_iter: 100
+test_interval: 500
+base_lr: 0.001
+display: 100
+max_iter: 100000
+lr_policy: "fixed"
+momentum: 0.9
+weight_decay: 0.004
+snapshot: 50000
+snapshot_prefix: "/home/frank/Desktop/tmp/mnist-2/my_lenet"
+solver_mode: GPU
+snapshot_format: BINARYPROTO
